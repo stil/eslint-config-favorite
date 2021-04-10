@@ -7,7 +7,7 @@ This project is closed for PRs. Only for my personal use.
 To install it in your project, simply run the following command:
 
 ```shell
-yarn add -D https://github.com/stil/eslint-config-favorite.git
+yarn add -D eslint-config-favorite
 ```
 
 Then you can create an `.eslintrc` file with following contents
