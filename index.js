@@ -2,7 +2,9 @@ module.exports = {
   extends: [
     // https://github.com/iamturns/eslint-config-airbnb-typescript/blob/master/index.js
     // https://github.com/iamturns/eslint-config-airbnb-typescript/blob/master/lib/shared.js
+    "airbnb",
     "airbnb-typescript",
+    "airbnb/hooks",
     // https://github.com/prettier/eslint-config-prettier#installation
     "prettier"
   ],
@@ -64,6 +66,9 @@ module.exports = {
 
     // Param reassign is used in immer.
     "no-param-reassign": "off",
+
+    // https://dev.to/titungdup/you-no-longer-need-to-import-react-from-react-3pbj
+    "react/react-in-jsx-scope": "off",
   },
   settings: {
     // Otherwise we'll get a following message:
