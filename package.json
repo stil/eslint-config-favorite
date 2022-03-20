@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-favorite",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "@babel/core": "^7.17.8",
     "@babel/eslint-parser": "^7.17.0",
